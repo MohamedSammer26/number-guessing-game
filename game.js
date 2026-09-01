@@ -26,10 +26,10 @@ function playGame() {
             console.log(` Congratulations! You guessed the correct number (${targetNumber}) in ${attempts} attempts.`);
             rl.close(); 
         } else if (guess < targetNumber) {
-            console.log(" Too low! Try a higher number.");
+            console.log("low! Try a higher number.");
             playGame(); 
         } else {
-            console.log(" Too high! Try a lower number.");
+            console.log("high! Try a lower number.");
             playGame(); 
         }
     });
